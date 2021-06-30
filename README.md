@@ -18,7 +18,8 @@ Set the Environment:
   $ echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
   ```
   
-Turtlebot3 SLAM Simulation:
+  
+# Turtlebot3 SLAM Simulation:
   1. Install Gazebo simulation package:
   ```$ cd ~/catkin_ws/src/
   $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
@@ -43,24 +44,25 @@ Turtlebot3 SLAM Simulation:
   
   
   
-A warehouse_simulation_toolkit SLAM Simulation:
-1. Add a Prerequisite ROS package:
-```
-$ sudo apt-get install ros-melodic-hector-trajectory-server ros-melodic-slam-gmapping ros-melodic-navigation
-```
-2. Clone the repository:
-```$ cd ~/catkin_ws/src
-$ git clone https://github.com/wh200720041/warehouse_simulation_toolkit.git
-$ cd ..
-$ catkin_make
-$ source ~/catkin_ws/devel/setup.bash
-```
-3. Launch simulation world:
-```
-$ roslaunch warehouse_simulation warehouse_simulation.launch
-```
-4. Navigation Simulation with RViz:
-   click 2d nav goal button on rviz (Upper bar), then choose the required point.
+  
+# A warehouse_simulation_toolkit SLAM Simulation:
+  1. Add a Prerequisite ROS package:
+  ```
+  $ sudo apt-get install ros-melodic-hector-trajectory-server ros-melodic-slam-gmapping ros-melodic-navigation
+  ```
+  2. Clone the repository:
+  ```$ cd ~/catkin_ws/src
+  $ git clone https://github.com/wh200720041/warehouse_simulation_toolkit.git
+  $ cd ..
+  $ catkin_make
+  $ source ~/catkin_ws/devel/setup.bash
+  ```
+  3. Launch simulation world:
+  ```
+  $ roslaunch warehouse_simulation warehouse_simulation.launch
+  ```
+  4. Navigation Simulation with RViz:
+     click 2d nav goal button on rviz (Upper bar), then choose the required point.
 
   
 
