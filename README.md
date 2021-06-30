@@ -1,5 +1,5 @@
-# Use-Turtlebot3-and warehouse_simulation_toolkit-with-SLAM-approach-on-ROS
-Use Turtlebot3 and warehouse_simulation_toolkit with SLAM approach to create and save a map using ROS tools; RViz, and Gazebo
+# Use-Turtlebot3-and-A_warehouse_simulation_toolkit-with-SLAM-approach-on-ROS
+Use Turtlebot3 and a warehouse_simulation_toolkit with SLAM approach to create and save a map using ROS tools; RViz, and Gazebo
 
 Set the Environment:
   1. Download and Install Ubuntu 18.04 on a Virtual Machine.
